@@ -1,0 +1,15 @@
+.header-container{
+    color: white;
+    background-color: #027254;
+}
+.start-btn{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    color: #027254;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.start-btn:hover{
+    color: #023628;
+}
