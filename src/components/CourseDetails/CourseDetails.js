@@ -34,7 +34,7 @@ const CourseDetails = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="text-center my-3 text-white">
+                <div className="text-center my-3 text-gray">
                     <h1>{matchedCourse?.courseName}</h1>
                     <h2>$ {matchedCourse?.subscriptionFee}</h2>
                     <p>Starting Date: {matchedCourse?.startDate}</p>
@@ -45,7 +45,7 @@ const CourseDetails = () => {
                     <img className="img-fluid" src={matchedCourse?.coursePicture} alt="" />
                 </div>
             </div>
-            <div className="pb-3 text-white">
+            <div className="pb-3 text-gray">
                 <Footer></Footer>
             </div>
         </div>

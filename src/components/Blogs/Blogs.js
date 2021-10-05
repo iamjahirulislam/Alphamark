@@ -25,7 +25,7 @@ const Blogs = () => {
                 }
             </div>
 
-            <div className="pb-3 text-white">
+            <div className="pb-3 text-gray">
                 <Footer></Footer>
             </div>
         </div>

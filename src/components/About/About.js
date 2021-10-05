@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className="container text-white bg-about ">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <div className="text-center my-5">
                             <h1>About Alphamark</h1>
                         </div>
@@ -41,7 +41,7 @@ const About = () => {
             </div>
 
 
-            <div className="pb-3 text-white">
+            <div className="pb-3 text-gray">
                 <Footer></Footer>
             </div>
         </div>
