@@ -19,7 +19,7 @@ const Blogs = () => {
                 </div>
             </div>
             <div className="container">
-                <h2 className="section-title text-white">Blogs</h2>
+                <h2 className="section-title text-gray">Blogs</h2>
                 {
                     courses.map(course => <Blog key={course.courseId} course={course}></Blog>)
                 }

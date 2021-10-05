@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import './Home.css';
-import monitor from '../../images/monitor.PNG';
+import tutorial from '../../images/Tutorial.png';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
             <div className="container my-5 course-price-container">
                 <div >
                     <div className="my-5">
-                        <h2 className="section-title">Courses &#38; Pricing</h2>
+                        <h2 className="section-title">Popular Courses</h2>
                     </div>
                     <div className="row">
                         {
@@ -35,7 +35,6 @@ const Home = () => {
                                             <h1 className="card-title">$ {course.subscriptionFee}</h1>
                                             <p>{course.courseName}</p>
                                         </div>
-                                        {/* <li className="btn course-btn">Subscribe Now</li> */}
                                     </div>
                                 </div>
                             ))
@@ -53,13 +52,14 @@ const Home = () => {
             <div className="container py-5 training-container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h1><i class="fas fa-video "></i> Our Video Training for Microsoft products and technologies</h1>
-                        <p>Choosing our courses you’ll receive a full package of educational materials including lectures, video trainings, books and practical tasks that provide a proper learning process..</p>
-                        <button className="btn course-btn view-all-btn">Broswe Courses</button>
+                        <img className="w-75" src={tutorial} alt="" />
                     </div>
                     <div className="col-md-6">
-                        <img className="w-75" src={monitor} alt="" />
+                        <h1><i class="fas fa-video "></i> Our Video Training for Microsoft products and technologies</h1>
+                        <p>Choosing our courses you’ll receive a full package of educational materials including lectures, video trainings, books and practical tasks that provide a proper learning process..</p>
+                        <button className="btn course-btn view-all-btn">View Courses</button>
                     </div>
+
                 </div>
             </div>
             <Footer></Footer>

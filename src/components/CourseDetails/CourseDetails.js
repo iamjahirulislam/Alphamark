@@ -34,14 +34,15 @@ const CourseDetails = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="text-center">
-                    <img className="img-fluid" src={matchedCourse?.coursePicture} alt="" />
-                </div>
                 <div className="text-center my-3 text-white">
-                    <h1>$ {matchedCourse?.subscriptionFee}</h1>
-                    <h2>{matchedCourse?.courseName}</h2>
+                    <h1>{matchedCourse?.courseName}</h1>
+                    <h2>$ {matchedCourse?.subscriptionFee}</h2>
                     <p>Starting Date: {matchedCourse?.startDate}</p>
                     <p>Duration: {matchedCourse?.duration}</p>
+                    <button className="btn course-btn view-all-btn">Subscribe Now</button>
+                </div>
+                <div className="text-center w-100">
+                    <img className="img-fluid" src={matchedCourse?.coursePicture} alt="" />
                 </div>
             </div>
             <div className="pb-3 text-white">

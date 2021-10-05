@@ -16,7 +16,7 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="text-center my-5">
-                            <h1>About E-Learning</h1>
+                            <h1>About Alphamark</h1>
                         </div>
                         <div>
                             <h2>Objectives</h2>
@@ -33,7 +33,7 @@ const About = () => {
                         <div>
                             <h2>Outcome</h2>
                             <ul>
-                                <li>By learning something new our next generation are going to prepare for their upcoming future.</li>
+                                <li>The most important outcome of education is to help students become independent of formal education. By learning something new our next generation are going to prepare for their upcoming future.</li>
                             </ul>
                         </div>
                     </div>
