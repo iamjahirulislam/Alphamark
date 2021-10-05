@@ -12,27 +12,31 @@ const About = () => {
                 </div>
 
             </div>
-            <div className="container text-white bg-about">
-                <div className="text-center my-5">
-                    <h1>About E-Learning</h1>
-                </div>
-                <div>
-                    <h2>Objectives</h2>
-                    <ul>
-                        <li>Our main object to teach everyone a particular course from beginning to advance </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Motivation</h2>
-                    <ul>
-                        <li>During this pandemic situation, our earth is now house captive. It is right time to learn something new. Because we are wasting our time in facebooking and youtubing.</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Outcome</h2>
-                    <ul>
-                        <li>By learning something new our next generation are going to prepare for their upcoming future.</li>
-                    </ul>
+            <div className="container text-white bg-about ">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="text-center my-5">
+                            <h1>About E-Learning</h1>
+                        </div>
+                        <div>
+                            <h2>Objectives</h2>
+                            <ul>
+                                <li>Our main object to teach everyone a particular course from beginning to advance </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Motivation</h2>
+                            <ul>
+                                <li>During this pandemic situation, our earth is now house captive. It is right time to learn something new. Because we are wasting our time in facebooking and youtubing.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Outcome</h2>
+                            <ul>
+                                <li>By learning something new our next generation are going to prepare for their upcoming future.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
